@@ -184,7 +184,7 @@ def wait_for_socket_cleanup(tries=20, wait=0.5):
 
 
 def check_actions(sock, status):
-    timeout = time.time() + 0.9
+    timeout = time.time() + 0.4
 
     data = ""
 
