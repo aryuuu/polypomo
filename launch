@@ -1,0 +1,4 @@
+#!/bin/bash
+
+/home/fatt/project/polypomo/polypomo > /tmp/polypomo.status &
+cat /tmp/polypomo.status
